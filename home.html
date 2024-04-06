@@ -16,6 +16,7 @@
     }
     * {
         text-decoration: none;
+        color: white ;
     }
     a {
         text-decoration: none;
@@ -34,11 +35,12 @@
         align-items: center;
         position: fixed;
         width: 100%;
+        top: 0;
     }
     ul li a {
         font-weight: bold;
         font-size: 20px;
-        text-decoration: none;
+        font-family: "Creepster", system-ui;
         color: white;
         padding: 50px;
     }
@@ -47,13 +49,27 @@
         color: rgb(168, 0, 148);
     }
     ul {
+        list-style-type: none;
         margin: 0;
         display: flex;
+    }
+    .afterlife img {
+        height: 800px;
+        margin: auto;
+        margin-top: 0;
+        display: block;
+    }
+    .judul {
+        font-family: "Creepster", system-ui;
+        text-align: center;
+        font-size: 80px;
+        margin-bottom: 0;
+        margin-top: 8%;
     }
 </style>
 <header>
     <div class="header">
-    <div><a href="home.html" class="logo">AFTERLIFE</a></div>
+        <div><a href="home.html" class="logo">AFTERLIFE</a></div>
         <ul>
             <li><a href="utama.html">Home</a></li>     
             <li><a href="product.html">Product</a></li>
@@ -61,6 +77,17 @@
         </ul>
     </div>
 </header>
+
+<div class="afterlife">
+    <div class="judul">WELCOME TO MY SHOP</div>
+    <img src="Image/Logo Afterlife.png">
+</div>
+
+<div>
+    <div class="konten">
+        <div class="kontenjudul"></div>
+    </div>
+</div>
 
 </body>
 </html>
