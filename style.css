@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    color: white;
+}
+* {
+    text-decoration: none;
+    color: white ;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    font-family: "Creepster", system-ui;
+    font-size: 60px;
+    color: rgb(168, 0, 148);
+    text-decoration: none;
+    text-align: center;
+    padding: 35px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+ul li a {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Creepster", system-ui;
+    color: white;
+    padding: 50px;
+}
+ul li a:hover {
+    text-decoration: none;
+    color: rgb(168, 0, 148);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+.afterlife img {
+    height: 700px;
+    margin: auto;
+    margin-top: 0;
+    display: block;
+}
+.judul {
+    font-family: "Creepster", system-ui;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 3%;
+}
+.konten {
+
+}
+.konten .kontenjudul {
+    font-family: "Creepster", system-ui;
+    text-align: center;
+    font-size: 50px;
+}
