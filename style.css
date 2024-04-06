@@ -55,11 +55,51 @@ ul {
     margin-bottom: 0;
     margin-top: 3%;
 }
-.konten {
-
-}
 .konten .kontenjudul {
     font-family: "Creepster", system-ui;
     text-align: center;
     font-size: 50px;
+}
+.kontenjudulproduct {
+    margin-top: 8%;
+    font-family: "Creepster", system-ui;
+    text-align: center;
+    font-size: 50px;
+}
+#search {
+    margin: 0 auto;
+    display: block;
+}
+.search {
+    margin-top: 30px;
+}
+.search input {
+    color: #000000;
+    height: 30px;
+    width: 400px;
+}
+.konten .text {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.baju {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 50px;
+}
+.baju img {
+    height: 400px;
+    max-height: 350px;
+    width: 600px;
+    max-width: 450px;
+}
+.baju img:hover {
+    transform: scale(0.9);
 }
