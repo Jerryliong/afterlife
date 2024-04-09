@@ -112,8 +112,8 @@ body {
 
 .container {
     max-width: 700px;
-    margin: 200px auto;
-    padding: 10px;
+    margin: 100px auto;
+    padding: 30px;
     background-color: purple;
     border-radius: 8px;
     box-shadow: 0 2px 4px black
@@ -135,7 +135,7 @@ label {
 
 input,
 textarea {
-    width: 100%;
+    width: 200%;
     padding: 10px;
     border: black;
     border-radius: 4px;
@@ -163,16 +163,16 @@ button:hover {
         grid-gap: 5px;
     }
 }
-.services {
+.service {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .service {
-    width: 40%;
+    width: 50%;
     margin-bottom: 10px;
-    padding: 250px;
+    padding: 300px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
@@ -180,15 +180,44 @@ button:hover {
 .service img {
     max-width: 150%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .service h3 {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .service p {
     font-size: 20px;
-    color: silver;
+    color: white;
+}
+
+
+body {
+    font-family: creepster;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: purple;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
